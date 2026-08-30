@@ -224,8 +224,6 @@ bibtex
 
 ⚖️ License
 
-## License
-
 Copyright (c) 2026 Vitor M. Pozza. All rights reserved.
 
 This repository, including all scripts, theoretical algorithms, and processed datasets, is provided strictly for academic research, peer review, and scientific reproducibility purposes. 
