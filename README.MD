@@ -11,7 +11,7 @@
 
 This repository contains the **code, data, and scripts** used in the paper
 
-> **Spectral Resonances and the Möbius Function over \(\mathbb{Z}[i]\)**  
+> ****Spectral Resonances and the Möbius Function over ℤ[i]****  
 > *by Vitor M. Pozza*  
 > *to appear in Mathematical Proceedings of the Cambridge Philosophical Society*
 
