@@ -23,12 +23,12 @@ The project focuses on the **computational and numerical verification** of analy
 
 The main objectives of this project are:
 
-- ✅ **Exact enumeration** of \(\mu(\alpha)\) for all non-zero Gaussian integers with norm \(N(\alpha)\le 10^8\).
-- ✅ **Validation** of the truncated explicit formula for the summatory function \(S(X)=\sum_{N(\alpha)\le X}\mu(\alpha)\).
+- ✅ **Exact enumeration of μ(α) for all non-zero Gaussian integers with norm N(α) ≤ 10⁸.
+- ✅ **Validation of the truncated explicit formula for the summatory function S(X) = Σ μ(α), with N(α) ≤ X.
 - ✅ **Numerical analysis** of angular equidistribution.
 - ✅ **Computation of shifted autocorrelations** (Chowla-type statistics).
-- ✅ **Distribution** of the values \(-1\), \(0\), and \(1\) of \(\mu\).
-- ✅ **High-precision data** for the zeros of \(\zeta(s)\) and \(L(s,\chi_{-4})\) and their derivatives.
+- ✅ **Distribution of the values −1, 0 and 1 of μ.
+- ✅ **High-precision data for the zeros of ζ(s) and L(s, χ₋₄) and their derivatives.
 
 ---
 
@@ -87,10 +87,10 @@ requirements.txt	Python package dependencies (see below).
 📊 Data Files
 Full Sieve Data
 File	Description
-mobius_data_1e8.csv	Complete enumeration of μ(α)μ(α) for all non-zero Gaussian integers with N(α)≤108N(α)≤108. Format: a,b,mu where a,b∈Za,b∈Z, a2+b2≤108a2+b2≤108, and mu = μ(a+bi)μ(a+bi). (~2.96 GB)
+mobius_data_1e8.csv	Complete enumeration of μ(α) for all non-zero Gaussian integers with N(α) ≤ 10⁸. Large file (approx. 2.96 GB). Format: a,b,mu, where a, b ∈ Z, a² + b² ≤ 10⁸, and mu = μ(a + bi).
 Summary Tables
 File	Description
-table1_summatory.csv	Summatory function values at X=105,106,107,108X=105,106,107,108.
+table1_summatory.csv	Data for the summatory function S(X) at X = 10⁵, 10⁶, 10⁷, 10⁸.
 table2_autocorr.csv	Shifted autocorrelation C(X)=∑μ(α)μ(α+1)C(X)=∑μ(α)μ(α+1).
 table3_distribution.csv	Proportions of μ(α)=−1,0,1μ(α)=−1,0,1.
 table3_distribution_full.csv	Full counts of μμ values.
@@ -224,5 +224,10 @@ bibtex
 
 ⚖️ License
 
-This project is provided for research and reproducibility purposes.
-Please contact the author for licensing information.
+## License
+
+Copyright (c) 2026 Vitor M. Pozza. All rights reserved.
+
+This repository, including all scripts, theoretical algorithms, and processed datasets, is provided strictly for academic research, peer review, and scientific reproducibility purposes. 
+
+No commercial use, redistribution, or modification of the software and data is permitted without explicit prior written authorization from the author.
