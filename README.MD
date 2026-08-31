@@ -195,7 +195,7 @@ pip install -r requirements.txt
 
     The complete sieve data file `mobius_data_1e8.csv` is approximately 2.96 GB
     and is therefore not hosted directly in this repository. It is available
-    for download from Zenodo: [https://doi.org/10.5281/zenodo.XXXXXXX]
+    for download from Zenodo: [https://doi.org/10.5281/zenodo.22182052]
 
     The high-precision zero files were generated with PARI/GP and contain more digits than necessary for most analyses; they are provided for complete reproducibility.
 
