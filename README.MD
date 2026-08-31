@@ -1,5 +1,6 @@
 # 🧪 Möbius–Gauss Lab Suite
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22182052.svg)](https://doi.org/10.5281/zenodo.22182052)
 [![License](https://img.shields.io/badge/License-Research%20Use-blue.svg)](LICENSE)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue?logo=c%2B%2B)](https://isocpp.org/)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://python.org)
@@ -195,8 +196,9 @@ pip install -r requirements.txt
 
     The complete sieve data file `mobius_data_1e8.csv` is approximately 2.96 GB
     and is therefore not hosted directly in this repository. It is available
-    for download from Zenodo: <https://doi.org/10.5281/zenodo.22182052>
-    The high-precision zero files were generated with PARI/GP and contain more digits than necessary for most analyses; they are provided for complete reproducibility.
+    for download from Zenodo: [https://doi.org/10.5281/zenodo.22182052]
+  
+The high-precision zero files were generated with PARI/GP and contain more digits than necessary for most analyses; they are provided for complete reproducibility.
 
     The validation scripts assume that all data files are located in the same directory as the scripts.
 
